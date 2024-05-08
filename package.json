@@ -2,6 +2,7 @@
   "name": "ONNXModelApp",
   "version": "0.0.1",
   "private": true,
+  "onnxruntimeExtensionsEnabled": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -16,6 +17,7 @@
     "onnxruntime-react-native": "^1.17.3",
     "react": "18.2.0",
     "react-native": "0.74.0",
+    "react-native-fs": "^2.20.0",
     "text-encoding": "^0.7.0"
   },
   "devDependencies": {
